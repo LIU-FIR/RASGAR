@@ -1,0 +1,19 @@
+#Julia
+/.julia/
+/*.cov
+/*.mem
+/.cache/
+/docs/build/
+/deps/
+/dev/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# artifacts / outputs
+*.png
+*.jpg
+*.pdf
+*.log
