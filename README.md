@@ -64,21 +64,11 @@ Note: metrics are grid-based (quantized by grid spacing), and depend on the chos
 
 ## Repo layout
 
+```tex
 .
 ├── CHANGE_LOG.md
 ├── docs
-│   ├── Bench_jl.md
-│   ├── BfwAlgm_jl.md
-│   ├── DataSynth_jl.md
-│   ├── PattnEval_jl.md
-│   ├── RArrCores_jl.md
-│   ├── RArrUtils_jl.md
-│   ├── RasModels_jl.md
-│   ├── RasSpecs_jl.md
-│   ├── RbstAlgm_jl.md
 │   ├── README.md
-│   ├── SigUtils_jl.md
-│   └── VisUtils_jl.md
 ├── Manifest.toml
 ├── Project.toml
 ├── RELEASE_CHECKLIST.md
@@ -87,13 +77,13 @@ Note: metrics are grid-based (quantized by grid spacing), and depend on the chos
 │   ├── xy_hpol_cord.jl
 │   └── xy_vpol_cord.jl
 ├── src
+│   ├── RASGAR.jl
 │   ├── Bench.jl
 │   ├── BfwAlgm.jl
 │   ├── DataSynth.jl
 │   ├── PattnEval.jl
 │   ├── RArrCores.jl
 │   ├── RArrUtils.jl
-│   ├── RASGAR.jl
 │   ├── RasModels.jl
 │   ├── RasSpecs.jl
 │   ├── RbstAlgm.jl
@@ -102,6 +92,9 @@ Note: metrics are grid-based (quantized by grid spacing), and depend on the chos
 └── test
     ├── runtests.jl
     └── test_sllcuts_nulldepth.jl
+```
+
+
 
 ## Roadmap
 
